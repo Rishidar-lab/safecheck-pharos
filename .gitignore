@@ -1,0 +1,20 @@
+# --- SECRETS: never commit (contain private keys) ---
+.env
+.env.*
+**/.env
+**/.env.*
+*.private_key
+.private_key
+
+# --- Reference clones (their own repos, not ours) ---
+pharos-skill-engine/
+pharos-examples/
+
+# --- Build / dependency artifacts ---
+**/node_modules/
+**/lib/
+**/out/
+**/cache/
+**/broadcast/
+*.zip
+*.bundle
